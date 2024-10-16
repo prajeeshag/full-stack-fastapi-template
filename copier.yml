@@ -61,7 +61,6 @@ sentry_dsn:
 
 _exclude:
   # Global
-  - .vscode
   - .mypy_cache
   # Python
   - __pycache__
@@ -94,6 +93,10 @@ _exclude:
   - "*.sln"
   - "*.sw?"
   - .github
+  - README.md
+  - img
+  - release-notes.md
+  - SECURITY.md
 
 _answers_file: .copier/.copier-answers.yml
 
