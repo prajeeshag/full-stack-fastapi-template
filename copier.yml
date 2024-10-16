@@ -93,6 +93,7 @@ _exclude:
   - "*.njsproj"
   - "*.sln"
   - "*.sw?"
+  - .github
 
 _answers_file: .copier/.copier-answers.yml
 
