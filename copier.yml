@@ -103,3 +103,4 @@ _answers_file: .copier/.copier-answers.yml
 
 _tasks:
   - ["{{ _copier_python }}", .copier/update_dotenv.py]
+  - ["rm -f copier.yml"]
